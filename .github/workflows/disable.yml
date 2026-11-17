@@ -1,0 +1,13 @@
+name: Action Disable
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  Disable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hold
+        run: echo "Disable WF"
